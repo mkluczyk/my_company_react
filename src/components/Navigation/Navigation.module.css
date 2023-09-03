@@ -1,0 +1,41 @@
+.navigation {
+  height: 50px;
+  background: #4e4e4e;
+}
+
+.company {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.linksList {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .linksList {
+    width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .listItem {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #f1f1f1;
+  }
+
+  .disabled {
+    cursor: not-allowed;
+  }
+}

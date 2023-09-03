@@ -1,0 +1,40 @@
+.offers {
+  background: #405d78;
+  padding: 50px 0;
+}
+
+.offerTitle {
+  margin-bottom: 80px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.offerBoxWrapper {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 63px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .offerBoxWrapper {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .offerTitle {
+    display: flex;
+    justify-content: left;
+  }
+
+  .offerBoxWrapper {
+    grid-template-columns: auto auto auto;
+  }
+}

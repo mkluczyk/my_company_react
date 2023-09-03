@@ -1,0 +1,75 @@
+.specialist {
+  margin: 50px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.specImg {
+  width: 197px;
+  height: 197px;
+  margin-bottom: 30px;
+  background-size: cover;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  align-self: center;
+  border: 1px solid darkgrey;
+}
+
+.name {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  align-self: flex-start;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+  .specialist {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+  }
+
+  .specialist:nth-of-type(odd) .specImg {
+    margin-right: 50px;
+  }
+
+  .specialist:nth-of-type(even) .specImg {
+    margin-left: 50px;
+  }
+
+  .specialist:nth-of-type(even) {
+    flex-direction: row-reverse;
+    margin-bottom: 0;
+  }
+
+  .specialist:nth-of-type(even) .name {
+    text-align: end;
+  }
+
+  .specialist:nth-of-type(even) .description {
+    text-align: right;
+  }
+
+  .specInfWrapper {
+    width: 70%;
+  }
+
+  .specImg {
+    width: 197px;
+    height: 197px;
+    background-size: cover;
+    border-radius: 50%;
+  }
+}

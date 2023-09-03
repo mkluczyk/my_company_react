@@ -1,0 +1,41 @@
+.footer {
+  height: 100px;
+  background: #4e4e4e;
+}
+
+.icons {
+  margin-top: 7px;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.txt {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-top: 5px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 70px;
+    background: #4e4e4e;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    height: 50px;
+    background: #4e4e4e;
+  }
+
+  .icons {
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+}

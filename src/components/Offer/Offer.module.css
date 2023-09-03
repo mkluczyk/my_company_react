@@ -1,0 +1,67 @@
+.offerBox {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  background: #f1f1f1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.pgf {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+}
+
+.circle {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background: #e07a64;
+  border-radius: 50%;
+  top: -19px;
+  left: -19px;
+}
+
+.newOffer::after {
+  content: "\A (nowość)";
+  white-space: pre-wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .offerBox {
+    width: 275px;
+    height: 275px;
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px;
+    top: -15px;
+    left: -15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .offerBox {
+    width: 197px;
+    height: 197px;
+    transition: 0.5s;
+  }
+
+  .offerBox:hover {
+    transform: scale(1.05);
+  }
+
+  .circle {
+    width: 22px;
+    height: 22px;
+    top: -11px;
+    left: -11px;
+  }
+}

@@ -1,0 +1,63 @@
+.header {
+  height: calc(100vh - 50px);
+  background-image: url("Tło\ sekcji.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shadow {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.biggerTxt {
+  max-width: 359px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.smallerTxt {
+  margin-top: 62px;
+  margin-bottom: 66px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.offerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 41px;
+  width: 164px;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .offerBtn {
+    transition-duration: 1s;
+  }
+
+  .offerBtn:hover {
+    background: #ffffff;
+    color: black;
+  }
+
+  .biggerTxt {
+    max-width: 577px;
+    flex-wrap: nowrap;
+  }
+}

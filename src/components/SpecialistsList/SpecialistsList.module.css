@@ -1,0 +1,19 @@
+.specialists {
+  background: #f1f1f1;
+  padding: 50px 0;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #152d41;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .title {
+    text-align: start;
+  }
+}
