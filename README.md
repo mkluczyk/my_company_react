@@ -13,7 +13,7 @@ informacjami.
 3. Wykorzystanie w aplikacji znajomości tagów HTML i CSS (z uwzględnieniem techniki RWD) oraz sposobu, w jaki korespondują z komponentami React.
 4. Umiejętne wykorzystywanie hook'ów w React.
 
-**<a href="https://budzetdomowy.netlify.app/">KLIKNIJ, BY WYŚWIETLIĆ STRONĘ</a>**
+**<a href="https://mycompanypage.netlify.app/">KLIKNIJ, BY WYŚWIETLIĆ STRONĘ</a>**
 
 # **ENG**
 
@@ -29,7 +29,7 @@ in which he can go to sections that he's intrested in, without nessessity of loa
 3. Using knowledge of HTML and CSS tags in the application (including Responsive Web Design techniques) and the way they correspond to the React components.
 4. Showing the usage of the React hooks.
 
-**<a href="https://budzetdomowy.netlify.app/">CLICK TO ENTER THE WEBSITE</a>**
+**<a href="https://mycompanypage.netlify.app/">CLICK TO ENTER THE WEBSITE</a>**
 
 <p align="center">
   <img width="600" src="public/assets/DesktopViewCompany.jpg" alt="DESKTOP VIEW">
