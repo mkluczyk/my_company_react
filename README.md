@@ -32,7 +32,7 @@ in which he can go to sections that he's intrested in, without nessessity of loa
 **<a href="https://budzetdomowy.netlify.app/">CLICK TO ENTER THE WEBSITE</a>**
 
 <p align="center">
-  <img width="400" src="/assets/DesktopView.jpg" alt="DESKTOP VIEW">
+  <img width="400" src="/public/assets/DesktopView.jpg" alt="DESKTOP VIEW">
   <img width="400" src="/assets/DesktopView1.jpg" alt="DESKTOP VIEW">
   <img width="400" src="/assets/DesktopView1.jpg" alt="DESKTOP VIEW">
    <img height="400" src="/assets/MobileView.PNG" alt="MOBILE VIEW">
