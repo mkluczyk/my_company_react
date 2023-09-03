@@ -34,7 +34,7 @@ in which he can go to sections that he's intrested in, without nessessity of loa
 <p align="center">
   <img width="600" src="public/assets/DesktopViewCompany.jpg" alt="DESKTOP VIEW">
   <img width="600" src="public/assets/DesktopViewCompany1.jpg" alt="DESKTOP VIEW">
-  <img width="600" src="public/assets/DesktopViewCompany2.jpg" alt="DESKTOP VIEW">
+  <img width="600" src="public/assets/DesktopViewCompany2.jpg" alt="DESKTOP VIEW"> <br>
    <img height="400" src="public/assets/MobileView.PNG" alt="MOBILE VIEW">
   <img height="400" src="public/assets/MobileView1.PNG" alt="MOBILE VIEW">
   <img height="400" src="public/assets/MobileView2PNG.PNG" alt="MOBILE VIEW">
