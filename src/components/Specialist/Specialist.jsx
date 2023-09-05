@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Specialist.module.css";
 
 const Specialist = ({ specialist, id }) => {

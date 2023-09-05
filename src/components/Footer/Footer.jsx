@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Footer.module.css";
 import Container from "../Container/Container";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,7 +11,7 @@ const Footer = () => {
           Nazwa firmy - wszelkie prawa zastrzeżone, 2023
         </span>
         <div className={styles.icons}>
-          <FontAwesomeIcon icon={faInstagram} style={{ marginRight: "7px" }} />
+          <FontAwesomeIcon icon={faInstagram} className={styles.ig} />
           <FontAwesomeIcon icon={faFacebook} />
         </div>
       </Container>

@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Offer.module.css";
 
 const Offer = ({ isNew, name }) => {

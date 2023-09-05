@@ -1,6 +1,6 @@
 .header {
   height: calc(100vh - 50px);
-  background-image: url("Tło\ sekcji.jpg");
+  background-image: url("/public/assets/Tło\ sekcji.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -12,6 +12,7 @@
 }
 
 .biggerTxt {
+  margin: 0 15px;
   max-width: 359px;
   font-style: normal;
   font-weight: 700;
@@ -21,8 +22,7 @@
 }
 
 .smallerTxt {
-  margin-top: 62px;
-  margin-bottom: 66px;
+  margin: 62px 15px 66px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -37,6 +37,7 @@
   height: 41px;
   width: 164px;
   box-sizing: border-box;
+  margin-left: 15px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;

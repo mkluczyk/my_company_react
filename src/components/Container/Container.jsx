@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from "react";
 import styles from "./Container.module.css";
 
 const Container = ({ children, isFooter, isHeader, isNavigation }) => {
-  const [css, setCss] = useState(styles.container);
-
-  useEffect(() => {
-    if (isFooter) {
-      setCss(styles.footerWrapper);
-    } else if (isHeader) {
-      setCss(styles.headerWrapper);
-    } else if (isNavigation) {
-      setCss(styles.naviWrapper);
+  const getProperCss = () => {
+    switch (true) {
+      case Boolean(isFooter):
+        return styles.footerWrapper;
+      case Boolean(isHeader):
+        return styles.headerWrapper;
+      case Boolean(isNavigation):
+        return styles.naviWrapper;
+      default:
+        return styles.container;
     }
-  }, [isFooter, isHeader, isNavigation]);
+  };
 
-  return <div className={css}>{children}</div>;
+  return <div className={getProperCss()}>{children}</div>;
 };
 
 export default Container;

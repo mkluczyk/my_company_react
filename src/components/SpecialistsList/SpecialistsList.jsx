@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./SpecialistsList.module.css";
 import { specialistsArray } from "../../data/specialistsArray";
 import Specialist from "../Specialist/Specialist";

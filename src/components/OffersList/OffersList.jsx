@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./OffersList.module.css";
 import Offer from "../Offer/Offer";
 import { offersArray } from "../../data/offersArray";
