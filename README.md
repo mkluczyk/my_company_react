@@ -12,7 +12,7 @@ informacjami.
 2. Przedstawienie umiejętności zastosowania aktualnych, dobrych praktyk podczas pisania kodu React i zadbanie o jego czytelność.
 3. Wykorzystanie w aplikacji znajomości tagów HTML i CSS (z uwzględnieniem techniki RWD) oraz sposobu, w jaki korespondują z komponentami React.
 
-**<a href="https://mycompanypage.netlify.app/">KLIKNIJ, BY WYŚWIETLIĆ STRONĘ</a>**
+**<a href="https://mycompanypage-react.netlify.app/">KLIKNIJ, BY WYŚWIETLIĆ STRONĘ</a>**
 
 # **ENG**
 
@@ -27,7 +27,7 @@ in which he can go to sections that he's intrested in, without nessessity of loa
 2. Presentation of the ability to apply current, good practices when writing React code and ensuring its readability.
 3. Using knowledge of HTML and CSS tags in the application (including Responsive Web Design techniques) and the way they correspond to the React components.
 
-**<a href="https://mycompanypage.netlify.app/">CLICK TO ENTER THE WEBSITE</a>**
+**<a href="https://mycompanypage-react.netlify.app/">CLICK TO ENTER THE WEBSITE</a>**
 
 <p align="center">
   <img width="600" src="public/assets/DesktopViewCompany.jpg" alt="DESKTOP VIEW">
